@@ -15,7 +15,7 @@ let encoded = pointy_json.encode({
 });
 ```
 
-({x: x, y: y} gets represented as {x: __pointer@@0, y: __pointer@@1}), which you can safely JSON.stringify and transfer
+({x: x, y: y} gets represented as {x: __pointer@@@0, y: __pointer@@@1}), which you can safely JSON.stringify and transfer
 
 then, on the other end:
 
