@@ -1,3 +1,5 @@
+/* copyright (c) 2019  anders wahlberg */
+
 const POINTER_PREFIX = "__pointer@@@"
 
 function traverseObject(x, seenObjects, duplicateObjects) {
